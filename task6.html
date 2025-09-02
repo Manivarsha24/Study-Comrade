@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin: 0;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .header {
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            gap: 3px;
+            background-color: #d0d0d0;
+            padding: 20px;
+        }
+        .header div {
+            background-color: #b0b0b0;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        .green-bar {
+            background-color: rgb(244, 103, 197);
+            height: 30px;
+            width: 100%;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            padding: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #000;
+        }
+        .blue-bar {
+            background-color: rgb(0, 195, 255);
+            height: 30px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>Varsharao</div>
+        <div>Souji</div>
+        <div>Mani</div>
+        <div>Hari</div>
+        <div>Akshaya</div>
+        <div>Samatha</div>
+    </div>
+    <div class="green-bar"></div>
+    <div class="main">
+        <div>Sidebar</div>
+      
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpp8wIaxG_Z6xoKOHanKiLZANkxJEf6b908Q&s" alt="Image">
+        </div>
+        <div> Sidebar</div>
+    </div>
+    <div class="blue-bar"></div>
+</body>
+</html>
